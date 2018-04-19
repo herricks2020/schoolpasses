@@ -1,0 +1,5 @@
+# This is a file for understanding how the gathering and application of data will work out. use time logs with your edits
+# 4/18 Usage of facebook integration systems as a way to determine birthdays. Birthdays are accounted in herricks passwords 
+# by their numbers without zeroes attached, unless it is in the date. (e.g. december 12th is 1212, and january 6th is 16)
+# id numbers have to be run through, and we can determine a pattern within all of them.
+# total count of plausible numbers should be around 100, if the birthdate is correct.
