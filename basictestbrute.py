@@ -3,10 +3,10 @@
 first = input('First Name: ')
 last = input('Last Name: ')
 
-first = first[:2].upper()
-last = last[:2].lower()
-
-
+first = first[:1].upper()
+if len(last) <= 4:
+elif len(last) > 4:  
+  last = last[:3].lower()     //changed it to accomodate last name
 
 for month in range(1,13):
   for date in range(1,32):
@@ -14,3 +14,4 @@ for month in range(1,13):
       if id<10:
         id = '0' + str(id)
       print(first+last+str(month)+str(date)+str(id))
+finalpass = first+last+number
