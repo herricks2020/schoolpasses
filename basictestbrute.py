@@ -15,3 +15,5 @@ for month in range(1,13):
         id = '0' + str(id)
       print(first+last+str(month)+str(date)+str(id))
 finalpass = first+last+number
+
+//integration of ruby on rails as a usage for getting birthdates from FB. After that, we can determine the possible 100 numbers for testing.
